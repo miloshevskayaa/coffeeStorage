@@ -1,0 +1,39 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    padding: 15px 20px;
+    font-size: 24px;
+    background-color: rgb(236, 223, 217);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: rgb(71, 57, 46);
+    font-size: 28px;
+    font-weight:600;
+    text-decoration: none;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block; 
+    margin: 0 25px;
+
+}
+.navbar .menu li a{
+    text-decoration: none;
+    color: rgb(71, 57, 46);
+}
+.navbar .menu li a:hover{
+    color:rgb(255, 255, 255);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(135, 125, 118);
+    padding-top: 60px;
+}

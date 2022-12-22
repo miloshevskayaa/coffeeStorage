@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    /* z-index: 0; */
+    box-sizing: border-box;
+
+}
+.education{
+    background-color: rgb(71, 57, 46);
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.coffeePic{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 0.3px 4px 4px rgba(0, 0, 0, 0.388);
+    margin-bottom: 15px;
+}
+.pic2{
+    position: fixed;
+    width: 250px;
+    height: 250px;
+    margin: 200px 500px;
+    box-shadow: 0.3px 10px 10px rgba(0, 0, 0, 0.525);
+}
+.coffeeCard{
+    margin: 30px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.coffeeCards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(71, 57, 46);
+
+
+}
+.name{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(236, 223, 217);
+
+}
+.link{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgba(212, 188, 177, 0.703);
+
+}
+.background{
+    position: fixed;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.315);
+    width:100%;
+    height: 100%;
+
+}
+.close{
+    position: fixed;
+    margin: 170px 760px;
+    color: rgba(255, 255, 255, 0.893);
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: bold;
+}

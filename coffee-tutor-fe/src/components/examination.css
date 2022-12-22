@@ -1,0 +1,142 @@
+.all{
+    background-color: rgb(236, 223, 217);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0;
+}
+.all span{
+    color: rgb(71, 57, 46);
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.all p{
+    color: rgb(71, 57, 46);
+    font-size: 20px;
+}
+.ingredients{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px 30px 10px;
+
+}
+.ingredient{
+    width: 150px;
+    height: 75px;
+    padding: 10px;
+    background-color:rgb(91, 74, 61);
+    border-radius: 100px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 10px;
+    border: 0px;
+    cursor: pointer;
+    transition: box-shadow 0.5s ease;
+    transition: transform 0.5s ease;
+}
+.ingredient:hover{
+    box-shadow: 0.2px 4px 5px rgba(0,0,0,0.2);
+    transform: scale(1.05);
+}
+.ingredient:active{
+    transform: scale(0.8);
+    box-shadow: 0.2px 4px 5px rgba(0,0,0,0.2);
+}
+.parts{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px 30px 10px;
+    
+}
+.parts button{
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    background-color:rgb(91, 74, 61);
+    margin: 15px 25px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    cursor: pointer;
+    transition: box-shadow 0.5s ease;
+    transition: transform 0.5s ease;
+}   
+.parts button:hover{
+    box-shadow: 0.2px 4px 5px rgba(0,0,0,0.2);
+    transform: scale(1.05);
+}
+.parts button:active{
+    transform: scale(0.8);
+    box-shadow: 0.2px 4px 5px rgba(0,0,0,0.2);
+} 
+.check{
+    /* background-color:rgb(116, 99, 83); */
+    color: white;
+    height: 50px;
+    padding: 5px 20px;
+    border-radius: 100px;
+    border: 0px;
+    cursor: pointer;
+    transition: box-shadow 0.5s ease;
+    transition: transform 0.5s ease;
+}
+.check:hover{
+    box-shadow: 0.2px 4px 5px rgba(0,0,0,0.2);
+    transform: scale(1.05);
+}
+.check:active{
+    transform: scale(0.8);
+    box-shadow: 0.2px 4px 5px rgba(0,0,0,0.2);
+} 
+.addDrink{
+    font-size: 20px;
+    color:rgb(71, 57, 46);
+    margin-bottom: 10px;
+
+}
+.resultButt{
+    font-size: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    width: 150px;
+    height: 75px;
+    padding: 5px;
+    background-color:rgb(58, 47, 38);
+    margin: 10px 40px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    cursor: pointer;
+}
+.result{
+    font-size: 20px;
+    color:rgb(57, 46, 38);
+    margin-bottom: 10px;
+}
+.hide{
+    display:none;
+    
+}
+
