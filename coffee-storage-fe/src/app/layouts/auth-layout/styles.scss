@@ -1,0 +1,120 @@
+.auth-layout {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #f2f6f7;
+
+  &__auth-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    max-width: 40%;
+    border-radius: 0 40px 40px 0;
+    border-right: 2px solid #fdc27a;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+
+    &__info {
+      & img {
+        width: 300px;
+        height: 300px;
+      }
+
+      &__coffee {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__coffee-name {
+          font-weight: 700;
+          font-size: 28px;
+          margin-top: 20px;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+
+  &__auth-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+
+    &__select {
+      display: flex;
+      justify-content: center;
+      padding-top: 5px;
+      font-weight: 400;
+      font-size: 18px;
+      height: 50px;
+      width: 300px;
+      position: fixed;
+      top: 20px;
+
+      &__login,
+      &__signup {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 140px;
+        cursor: pointer;
+
+        &__line {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 140px;
+          height: 50px;
+          border-bottom: 2px solid #fdc27a;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 780px) {
+  .auth-layout {
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__auth-header {
+      min-width: 100%;
+      max-height: 26%;
+      border: 0;
+      border-radius: 0 0 40px 40px;
+      border-bottom: 2px solid #fdc27a;
+
+      &__info {
+        & img {
+          width: 100px;
+          height: 100px;
+        }
+
+        &__coffee {
+          &__coffee-name {
+            font-weight: 600;
+            font-size: 20px;
+            margin-top: 0;
+            margin-bottom: 10px;
+          }
+
+          &__coffee-caption {
+            display: none;
+          }
+        }
+      }
+    }
+
+    &__auth-main {
+      width: 60%;
+      padding-bottom: 15%;
+
+      &__select {
+        top: 28%;
+      }
+    }
+  }
+}

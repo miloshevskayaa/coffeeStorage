@@ -1,0 +1,23 @@
+.statistics {
+  &__one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #6b4e2ace;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 20px 0;
+
+    &__date,
+    &__result,
+    &__time {
+      margin: 5px 10px;
+
+      & span {
+        font-size: 18px;
+      }
+    }
+  }
+}

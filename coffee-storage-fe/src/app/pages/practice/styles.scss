@@ -1,0 +1,17 @@
+.practice {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+
+  &__button {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid #6b4e2ace;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 20px;
+    cursor: pointer;
+  }
+}

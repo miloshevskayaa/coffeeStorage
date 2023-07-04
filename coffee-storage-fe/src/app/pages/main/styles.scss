@@ -1,0 +1,241 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    margin-top: 20px;
+    margin-bottom: 6%;
+
+    &__text {
+      font-size: 18px;
+      width: 50%;
+      line-height: 23px;
+
+      & span {
+        font-size: 20px;
+        font-weight: 500;
+      }
+    }
+
+    &__image {
+      width: 340px;
+      height: 400px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  &__coffee-types {
+    width: 65%;
+    margin-bottom: 5%;
+
+    &__title {
+      font-size: 20px;
+      line-height: 23px;
+      margin-bottom: 20px;
+      text-align: center;
+
+      & p {
+        font-weight: 600;
+        margin: 10px 0;
+      }
+    }
+
+    &__main {
+      display: flex;
+
+      &__about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        padding: 15px;
+        font-size: 18px;
+        line-height: 23px;
+
+        &__text {
+          & span {
+            font-weight: 500;
+          }
+
+          & p {
+            font-weight: 300;
+            font-size: 16px;
+            color: #806e61;
+            margin: 5px 0 10px 0;
+          }
+        }
+
+        &__image {
+          border-radius: 15px;
+          width: 200px;
+          margin: 20px 0;
+          box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+        }
+      }
+    }
+  }
+
+  &__coffee-roasting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+
+    &__title {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 40px;
+    }
+
+    &__image {
+      width: 70%;
+      border-radius: 10px;
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  &__coffee-grinding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+
+    &__title {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 40px;
+    }
+
+    &__content {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+
+      &__grubii,
+      &__srednii,
+      &__tonkii,
+      &__pil {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 20px;
+
+        &__title {
+          font-size: 20px;
+        }
+
+        &__image {
+          width: 200px;
+          height: 130px;
+          border-radius: 10px;
+          box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+        }
+      }
+    }
+
+    &__pomol {
+      text-align: center;
+
+      &__title {
+        font-size: 20px;
+        margin-bottom: 40px;
+      }
+
+      &__image {
+        width: 70%;
+        border-radius: 10px;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+      }
+
+      &__caption {
+        padding: 0 20%;
+        font-weight: 300;
+        font-size: 18px;
+        color: #806e61;
+      }
+    }
+  }
+}
+
+@media (max-width: 1150px) {
+  .main {
+    &__info {
+      width: 70%;
+
+      &__image {
+        width: 300px;
+        height: 380px;
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .main {
+    &__info {
+      width: 65%;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      &__text {
+        width: 90%;
+        text-align: center;
+      }
+
+      &__image {
+        margin-bottom: 40px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    &__coffee-types {
+      &__main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        &__about {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 80%;
+          padding: 15px;
+          font-size: 18px;
+          line-height: 23px;
+
+          &__text {
+            text-align: center;
+            & span {
+              font-weight: 500;
+            }
+
+            & p {
+              font-weight: 300;
+              font-size: 16px;
+              color: #806e61;
+              margin: 5px 0 10px 0;
+            }
+          }
+
+          &__image {
+            border-radius: 15px;
+            width: 200px;
+            margin: 20px 0;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+          }
+        }
+      }
+    }
+  }
+}

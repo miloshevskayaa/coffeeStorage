@@ -1,0 +1,40 @@
+.form__forgot-password {
+  cursor: pointer;
+  transition: all 0.3s;
+
+  &:hover {
+    color: #fdc27a;
+  }
+}
+.ant-btn-primary {
+  background-color: #fdc27a;
+  margin-top: 30px;
+  width: 300px;
+  height: 40px;
+  border-radius: 15px;
+}
+.ant-btn-primary:not(:disabled):hover {
+  background-color: #fdc27a;
+  scale: 1.05;
+}
+.ant-btn-primary:not(:disabled):active {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+}
+.ant-form-item {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+.ant-form-item-control-input {
+  width: 300px;
+}
+.ant-col-offset-8 {
+  margin: 0;
+}
+.ant-form-item-row {
+  flex-direction: column;
+  align-items: start;
+}
+.ant-col-8 {
+  max-width: 100%;
+}
